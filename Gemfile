@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'byebug'
+gem 'celluloid-io'
+gem 'dotenv'
+gem 'pry'
+gem 'rake'
+gem 'rspec'
+gem 'capybara'
+gem 'slack-ruby-bot'
+gem 'sinatra'
+gem 'rack-test'
+gem 'sinatra-base'
