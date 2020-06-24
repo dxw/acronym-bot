@@ -91,8 +91,6 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
-    sinatra-base (1.0)
-      rack (>= 1.0)
     slack-ruby-bot (0.15.0)
       hashie
       slack-ruby-client (>= 0.14.0)
@@ -128,7 +126,6 @@ DEPENDENCIES
   rake
   rspec
   sinatra
-  sinatra-base
   slack-ruby-bot
 
 BUNDLED WITH
