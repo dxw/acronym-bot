@@ -10,8 +10,14 @@ RSpec.describe 'Acronym bot' do
       end
 
       it "gives the right expansion for that acronym only" do
-        expect(response.body).to include("Department of Business, Energy and Industrial Strategy")
+        expect(response.body).to include("BEIS stands for Department of Business, Energy and Industrial Strategy")
         expect(response.body).not_to include("Department for Education")
+      end
+
+      it "is not case sensitive but it replies with the preferred spelling" do
+        response = post "/", text: "beis"
+
+        expect(response.body).to include("BEIS stands for Department of Business, Energy and Industrial Strategy")
       end
     end
 
