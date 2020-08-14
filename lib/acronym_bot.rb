@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'yaml'
 
-expansion = YAML.load(File.read("./config/acronyms.yml"))
+expansion = YAML::load_file("./config/acronyms.yml")
 
 post '/' do
   acronym = params['text']
