@@ -1,12 +1,14 @@
 require 'sinatra'
 require 'yaml'
 
-expansion = YAML.load(File.read("./config/acronyms.yml"))
+expansion = YAML::load_file("./config/acronyms.yml")
 
 post '/' do
   acronym = params['text']
-  if expansion.has_key?(acronym)
-    "#{acronym} stands for #{expansion[acronym]}"
+  first_match = expansion.keys.find { |key| key.casecmp?(acronym) }
+
+  if first_match
+    "#{first_match} stands for #{expansion[first_match]}"
   else
     "Sorry, I don't know that acronym"
   end
