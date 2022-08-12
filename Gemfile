@@ -5,6 +5,7 @@ ruby File.read(".ruby-version").strip
 gem 'byebug'
 gem 'celluloid-io'
 gem 'dotenv'
+gem 'google-api-client', '~> 0.53.0'
 gem 'pry'
 gem 'rake'
 gem 'rspec'
