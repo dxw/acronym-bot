@@ -5,7 +5,7 @@ BAU: Business as Usual
 BCS: British Computer Society
 BEIS: Department of Business, Energy and Industrial Strategy
 BIS: Department for Business, Innovation and Skills
-CA: Citizens advice
+CA: Citizens Advice
 CAB: Change Advisory Board
 CAF: Common Assessment Framework
 CCG: Clinical Commissioning Group
@@ -17,14 +17,14 @@ CQC: Care Quality Commission
 Cafcass: Children and Family Court Advisory and Support Service
 DBS: Disclosure & Barring Service
 DCLG: Department for Communities & Local Government
-DCMS: Department for Digital, Culture, Media & Sport
+DCMS: Department for Digital, Culture, Media and Sport
 DDAT: Digital, Data and Technology
 DExEU: Department for Exiting the EU
 DFID: Department for International Development
 DFT: Department for Transport
-DH: Department of Health
+DHSC: Department of Health and Social Care
 DIT: Department of International Trade
-DOS: Digital outcome specialist
+DOS: Digital Outcomes and Specialists
 DVLA: Driver and Vehicle Licensing Agency
 DVSA: Driver & Vehicle Standards Agency
 DWP: Department for Work and Pensions
@@ -49,6 +49,7 @@ HMRC: Her Majesty's Revenue and Customs
 HMT: Her Majesty's Treasury
 HO: Home Office
 HRA: Health Research Authority
+ICO: Information Commissioner's Office
 IPA: Infrastructure and Projects Authority
 IPO: Intellectual Property Office
 ITHC: IT Health Check
@@ -61,7 +62,6 @@ LAA: Legal Aid Agency
 MHCLG: Ministry of Housing, Communities and Local Government
 MISO: Management System Information Online
 MVP: Minimum Viable Product
-MoD: Ministry of Defence
 MoG: Machinery of Government
 MoJ: Ministry of Justice
 MoPA: Major Projects Authority
@@ -78,8 +78,8 @@ NS&I: National Savings & Investments
 OBC: Outline Business Case
 OBR: Office for Budget Responsibility
 OGD: Other Government Departments
-OKR: Organisation Key Result
-ONS: Office of National Statistics
+OKR: Objectives and Key Results
+ONS: Office for National Statistics
 OPG: Office of the Public Guardian
 Ofcom: Office of Communications
 Ofgem: Office of Gas & Electricity Markets
@@ -89,9 +89,9 @@ PAC: Public Accounts Committee
 PASC: Public Administration Select Committee
 PCT: Primary Care Trust
 PHE: Public Health England
-PM: Prime Minister
+PM: Product Manager
 PSN: Public Sector Network
-QAR: Quarterly Assurance Reviews
+QAR: Quality Assurance Reviews
 SCS: Senior Civil Service
 SFO: Serious Fraud Office
 SHA: Strategic Health Authority
@@ -108,16 +108,13 @@ BCE: Boundary Commission for England
 CBW: Community Business Weekend
 CCC: The Committee on Climate Change
 CoDH: Council of Deans of Health
-DCMS: Department for Digital, Culture, Media and Sport
 DfT: Department for Transport
-DHSC: Department of Health and Social Care
 E&E: Education and Employers
 ITF: Inspiring the Future
 PF: Primary Futures
 IG: Inspiring Governance
 IFEG: Inspiring Further Education Governance
 ESHT: East Sussex Healthcare NHS Trust
-FCO: Foreign and Commonwealth Office
 BAT: British Antarctic Territory
 BIOT: British Indian Overseas Territory
 GISF: Global Intelligence Security Forum
@@ -127,13 +124,37 @@ GOsC: General Osteopathic Council
 ICAI: Independent Commission for Aid Impact
 LGIU: Local Government Information Unit
 MoD: Ministry of Defence
-AFC: Armed Forces Covenant
-AFD: Armed Forces Day
+AFC, AFD: Armed Forces Covenant / Day
 Natcen: National Centre of Statistics (Also ScotCen)
 WST: What Scotland Thinks
 WUKT: What UK Thinks
-ONS: Office for National Statistics
 GSS: Government Statistical Service
+DL: Delivery Lead
+UR: User Researcher
+FE: Design/front end developer
+BE: Developer / back end
+TM: Transformation managers
+SD: Service designer
 SaaS: Software as a service
 PaaS: Platform as a service
 GPaaS: GOV.UK Platform as a Service
+i18n: Internationalisation
+a11y: Accessibility
+l10n: localisation
+SID: Statistics on International Development
+FCDO: Foreign, Commonwealth & Development Office
+AHRC: Arts & Humanities Research Council
+BBSRC: Biotechnology and Biological Sciences Research Council
+EPSRC: Engineering and Physical Sciences Research Council
+ESRC: Economic and Social Research Council
+IUK: Innovate UK
+MRC: Medical Research Council
+NERC: Natural Environment Research Council
+RAEng: Royal Academy of Engineering
+RE: Research England
+STFC: Science and Technology Facilities
+UKRI: UK Research and Innovation
+IATI: International Aid Transparency Initiative
+ADR: Architectural Decision Records
+EOT: Employee Ownership Trust
+ISPF: International Science Partnerships Fund
