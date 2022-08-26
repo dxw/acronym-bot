@@ -1,0 +1,37 @@
+name: Rebuild dictionary
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 */12 * * *'
+
+jobs:
+  run:
+    name: Build dictionary
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: Set up ruby
+      uses: ruby/setup-ruby@v1
+
+    - name: Install dependencies
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+
+    - name: Rebuild dictionary
+      run: ruby lib/build_local_glossary.rb
+      env:
+        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+
+    - name: Commit the updated dictionary
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Update dictionary
+        file_pattern: config/acronyms.yml
