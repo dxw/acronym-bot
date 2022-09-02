@@ -30,8 +30,12 @@ jobs:
         SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
         GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
 
-    - name: Commit the updated dictionary
-      uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Create pull request with updated dictionary
+      uses: peter-evans/create-pull-request@v4.1.1
       with:
-        commit_message: Update dictionary
-        file_pattern: config/acronyms.yml
+        add-paths: config/acronyms.yml
+        commit-message: Automatic dictionary update
+        branch: update-acronyms
+        delete-branch: true
+        title: Update acronyms with latest definitions
+        body: This is an automatically created PR to update the acronyms from the latest version of the dxw Glossary
