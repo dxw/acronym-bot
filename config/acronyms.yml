@@ -135,6 +135,7 @@ FE: Design/front end developer
 BE: Developer / back end
 TM: Transformation managers
 SD: Service designer
+IxD: Interaction Designer
 SaaS: Software as a service
 PaaS: Platform as a service
 GPaaS: GOV.UK Platform as a Service
@@ -159,3 +160,6 @@ ADR: Architectural Decision Records
 EOT: Employee Ownership Trust
 ISPF: International Science Partnerships Fund
 DLUHC: Department for Levelling Up, Housing & Communities
+RODA: Report your Official Development Assistance
+TNA: The National Archives
+DSIT: Department for Science, Innovation and Technology
