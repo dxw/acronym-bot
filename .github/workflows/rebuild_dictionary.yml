@@ -31,7 +31,7 @@ jobs:
         GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
 
     - name: Create pull request with updated dictionary
-      uses: peter-evans/create-pull-request@v4.2.4
+      uses: peter-evans/create-pull-request@v5.0.2
       with:
         add-paths: config/acronyms.yml
         commit-message: Automatic dictionary update
