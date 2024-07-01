@@ -10,6 +10,6 @@ post '/' do
   if first_match
     "#{first_match} stands for #{expansion[first_match]}"
   else
-    "Sorry, I don't know that acronym"
+    "Sorry, I don't know the acronym \"#{acronym}\""
   end
 end
