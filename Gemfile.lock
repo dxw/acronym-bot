@@ -91,7 +91,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.5)
+    mini_portile2 (2.8.7)
     minitest (5.22.2)
     multi_json (1.15.0)
     multipart-post (2.2.3)
@@ -99,7 +99,7 @@ GEM
       ruby2_keywords (~> 0.0.1)
     mutex_m (0.2.0)
     nio4r (2.7.0)
-    nokogiri (1.16.2)
+    nokogiri (1.16.6)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     os (1.1.4)
@@ -109,7 +109,7 @@ GEM
     public_suffix (4.0.7)
     puma (6.4.2)
       nio4r (~> 2.0)
-    racc (1.7.3)
+    racc (1.8.0)
     rack (2.2.9)
     rack-protection (3.2.0)
       base64 (>= 0.1.0)
@@ -191,7 +191,7 @@ DEPENDENCIES
   slack-ruby-bot
 
 RUBY VERSION
-   ruby 3.3.1p55
+   ruby 3.3.3p89
 
 BUNDLED WITH
    2.5.3
