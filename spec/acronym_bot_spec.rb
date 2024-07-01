@@ -25,7 +25,7 @@ RSpec.describe 'Acronym bot' do
       let(:response) { post "/", text: "NOTEXISTINGACRONYM" }
 
       it "notifies the user that acronym does not exist in the yaml file" do
-        expect(response.body).to include("Sorry, I don't know that acronym")
+        expect(response.body).to include("Sorry, I don't know the acronym \"NOTEXISTINGACRONYM\"")
       end
     end
   end
