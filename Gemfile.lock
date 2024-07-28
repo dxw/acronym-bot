@@ -11,8 +11,8 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
-    addressable (2.8.6)
-      public_suffix (>= 2.0.2, < 6.0)
+    addressable (2.8.7)
+      public_suffix (>= 2.0.2, < 7.0)
     base64 (0.2.0)
     bigdecimal (3.1.6)
     byebug (11.1.3)
@@ -54,8 +54,9 @@ GEM
     dotenv (2.8.1)
     drb (2.2.0)
       ruby2_keywords
-    faraday (2.9.0)
+    faraday (2.10.0)
       faraday-net_http (>= 2.0, < 3.2)
+      logger
     faraday-mashify (0.1.0)
       faraday (~> 2.0)
       hashie
@@ -71,7 +72,7 @@ GEM
       representable (~> 3.0)
       retriable (>= 2.0, < 4.a)
       rexml
-    google-apis-sheets_v4 (0.32.0)
+    google-apis-sheets_v4 (0.33.0)
       google-apis-core (>= 0.15.0, < 2.a)
     google-cloud-env (2.1.1)
       faraday (>= 1.0, < 3.a)
@@ -86,8 +87,9 @@ GEM
     httpclient (2.8.3)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    jwt (2.8.1)
+    jwt (2.8.2)
       base64
+    logger (1.6.0)
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.5)
@@ -123,8 +125,8 @@ GEM
       trailblazer-option (>= 0.1.1, < 0.2.0)
       uber (< 0.2.0)
     retriable (3.1.2)
-    rexml (3.2.8)
-      strscan (>= 3.0.9)
+    rexml (3.3.2)
+      strscan
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -191,7 +193,7 @@ DEPENDENCIES
   slack-ruby-bot
 
 RUBY VERSION
-   ruby 3.3.3p89
+   ruby 3.3.4p94
 
 BUNDLED WITH
    2.5.3
